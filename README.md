@@ -11,6 +11,19 @@ A hands-on DevOps project demonstrating a complete CI/CD pipeline using GitHub A
 ## Objective
 Build, test, and deploy a Python application automatically on every push to GitHub. Simulate failures and fixes to demonstrate error handling.
 
+## 📌 About This Project
+
+This project demonstrates the fundamentals of modern DevOps and CI/CD practices. 
+
+I built a fully automated pipeline using GitHub Actions that triggers on every push to the `main` branch. The pipeline checks out code, sets up the Python environment, logs build information, runs the application, and reports test status.
+
+Key DevOps concepts covered:
+- **Continuous Integration**: Automated build and test on every commit
+- **GitOps**: Managing infrastructure and pipelines through Git
+- **Workflow Automation**: 6-step pipeline from checkout to reporting
+- **Error Handling**: Simulated failures and recovery testing
+
+This project was built as part of my Cloud Computing Lab to gain hands-on experience with cloud-native tooling.
 ## Tech Stack
 - **Language**: Python 3.10
 - **CI/CD**: GitHub Actions
