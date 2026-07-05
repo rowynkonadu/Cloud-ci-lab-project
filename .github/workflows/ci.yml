@@ -28,3 +28,4 @@ jobs:
 
       - name: Run test command
         run: echo "All tests passed for Rowyn's Cloud App!"
+      
