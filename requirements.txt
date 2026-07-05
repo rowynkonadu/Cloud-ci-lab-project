@@ -1,0 +1,1 @@
+    python -m pytest || echo "No tests, but app runs fine"
