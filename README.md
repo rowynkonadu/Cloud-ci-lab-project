@@ -50,6 +50,15 @@ The workflow triggers on every `push` to `main` branch:
 
 ![Recovered Pipeline](screenshots/fixed.png)
 *Fixed the error, pushed the commit, and pipeline recovered to green.*
+#### 1. Simulated Failure
+![Failed Pipeline](screenshots/failure.png)
+*Intentionally introduced a ZeroDivisionError in app.py. Pipeline failed at "Run app" step.*
+
+#### 2. Recovery
+![Recovered Pipeline](screenshots/fixed.png)
+*Fixed the error, committed the change, and pipeline recovered to success.*
+
+**Learning**: CI pipelines catch errors early. GitOps allows us to fix and redeploy through code commits only.
 
 ## 🧠 Key Learnings
 - Configured and debugged GitHub Actions YAML workflows
